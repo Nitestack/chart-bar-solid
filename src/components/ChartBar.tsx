@@ -28,9 +28,20 @@ const ChartBar: ParentComponent<ChartBarProps> = (props) => {
             ]
         },
         options: {
+            maintainAspectRatio: true,
             scales: {
+                x: {
+                    grid: {
+                        display: false
+                    }
+                },
                 y: {
-                    beginAtZero: true
+                    ticks: {
+                        display: false
+                    },
+                    grid: {
+                        display: false
+                    }
                 }
             }
         }

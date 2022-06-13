@@ -1,6 +1,5 @@
 import InfoCard from "./components/InfoCard";
 import StatsCard from "./components/StatsCard";
-import logo from './logo.svg';
 import data from "./data.json";
 import RevenueCard from "./components/RevenueStats";
 
